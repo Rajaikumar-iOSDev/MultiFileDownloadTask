@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2EFA6E2A78B10488E08B7098 /* Pods_MultiFileDownloadTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29948CBA600E312C39B81425 /* Pods_MultiFileDownloadTask.framework */; };
+		844FEB6A25B33CAF003F2CD6 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 844FEB6925B33CAF003F2CD6 /* UIViewExtension.swift */; };
+		A42A9E522303467D0097900E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A42A9E512303467D0097900E /* LoginViewController.swift */; };
+		A481E0102302FB5D00B1FB8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E00F2302FB5D00B1FB8A /* AppDelegate.swift */; };
+		A481E0122302FB5D00B1FB8A /* MultiFileDownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E0112302FB5D00B1FB8A /* MultiFileDownloadViewController.swift */; };
+		A481E0152302FB5D00B1FB8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A481E0132302FB5D00B1FB8A /* Main.storyboard */; };
+		A481E0172302FB5F00B1FB8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A481E0162302FB5F00B1FB8A /* Assets.xcassets */; };
+		A481E01A2302FB5F00B1FB8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A481E0182302FB5F00B1FB8A /* LaunchScreen.storyboard */; };
+		A481E0222302FEE200B1FB8A /* FileDownloadCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E0212302FEE200B1FB8A /* FileDownloadCell.swift */; };
+		A481E0262303223500B1FB8A /* GetURLViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A481E0252303223500B1FB8A /* GetURLViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0D1CF8109EE18EC50FEC7CCE /* Pods-MultiFileDownloadTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFileDownloadTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFileDownloadTask/Pods-MultiFileDownloadTask.release.xcconfig"; sourceTree = "<group>"; };
+		29948CBA600E312C39B81425 /* Pods_MultiFileDownloadTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MultiFileDownloadTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		405C9EF4B70CF1BA9F7CE6E3 /* Pods-MultiFileDownloadTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MultiFileDownloadTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MultiFileDownloadTask/Pods-MultiFileDownloadTask.debug.xcconfig"; sourceTree = "<group>"; };
+		844FEB6925B33CAF003F2CD6 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		A42A9E512303467D0097900E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A481E00C2302FB5D00B1FB8A /* MultiFileDownloadTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiFileDownloadTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A481E00F2302FB5D00B1FB8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A481E0112302FB5D00B1FB8A /* MultiFileDownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiFileDownloadViewController.swift; sourceTree = "<group>"; };
+		A481E0142302FB5D00B1FB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A481E0162302FB5F00B1FB8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A481E0192302FB5F00B1FB8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A481E01B2302FB5F00B1FB8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A481E0212302FEE200B1FB8A /* FileDownloadCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileDownloadCell.swift; sourceTree = "<group>"; };
+		A481E0252303223500B1FB8A /* GetURLViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetURLViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A481E0092302FB5D00B1FB8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EFA6E2A78B10488E08B7098 /* Pods_MultiFileDownloadTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D59D78F916D39694EC325AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				405C9EF4B70CF1BA9F7CE6E3 /* Pods-MultiFileDownloadTask.debug.xcconfig */,
+				0D1CF8109EE18EC50FEC7CCE /* Pods-MultiFileDownloadTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		844FEB6425B33C4F003F2CD6 /* ViewControlers */ = {
+			isa = PBXGroup;
+			children = (
+				A481E0112302FB5D00B1FB8A /* MultiFileDownloadViewController.swift */,
+				A481E0252303223500B1FB8A /* GetURLViewController.swift */,
+				A42A9E512303467D0097900E /* LoginViewController.swift */,
+			);
+			path = ViewControlers;
+			sourceTree = "<group>";
+		};
+		844FEB6725B33C68003F2CD6 /* TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				A481E0212302FEE200B1FB8A /* FileDownloadCell.swift */,
+			);
+			path = TableViewCell;
+			sourceTree = "<group>";
+		};
+		844FEB6C25B33CD2003F2CD6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				844FEB6925B33CAF003F2CD6 /* UIViewExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		844FEB6E25B33CE5003F2CD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A481E0132302FB5D00B1FB8A /* Main.storyboard */,
+				A481E0162302FB5F00B1FB8A /* Assets.xcassets */,
+				A481E0182302FB5F00B1FB8A /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		A481E0032302FB5D00B1FB8A = {
+			isa = PBXGroup;
+			children = (
+				A481E00E2302FB5D00B1FB8A /* MultiFileDownloadTask */,
+				A481E00D2302FB5D00B1FB8A /* Products */,
+				5D59D78F916D39694EC325AD /* Pods */,
+				C5291EC6CCF4F300C555541E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A481E00D2302FB5D00B1FB8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A481E00C2302FB5D00B1FB8A /* MultiFileDownloadTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A481E00E2302FB5D00B1FB8A /* MultiFileDownloadTask */ = {
+			isa = PBXGroup;
+			children = (
+				A481E00F2302FB5D00B1FB8A /* AppDelegate.swift */,
+				844FEB6C25B33CD2003F2CD6 /* Extensions */,
+				844FEB6425B33C4F003F2CD6 /* ViewControlers */,
+				844FEB6725B33C68003F2CD6 /* TableViewCell */,
+				844FEB6E25B33CE5003F2CD6 /* Resources */,
+				A481E01B2302FB5F00B1FB8A /* Info.plist */,
+			);
+			path = MultiFileDownloadTask;
+			sourceTree = "<group>";
+		};
+		C5291EC6CCF4F300C555541E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29948CBA600E312C39B81425 /* Pods_MultiFileDownloadTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A481E00B2302FB5D00B1FB8A /* MultiFileDownloadTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A481E01E2302FB5F00B1FB8A /* Build configuration list for PBXNativeTarget "MultiFileDownloadTask" */;
+			buildPhases = (
+				B4D971667B5BE7D8688145B9 /* [CP] Check Pods Manifest.lock */,
+				A481E0082302FB5D00B1FB8A /* Sources */,
+				A481E0092302FB5D00B1FB8A /* Frameworks */,
+				A481E00A2302FB5D00B1FB8A /* Resources */,
+				CB4EACD3B265D63080F91A99 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiFileDownloadTask;
+			productName = MultiFileDownloadTask;
+			productReference = A481E00C2302FB5D00B1FB8A /* MultiFileDownloadTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A481E0042302FB5D00B1FB8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Subburaman, Rajai Kumar";
+				TargetAttributes = {
+					A481E00B2302FB5D00B1FB8A = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A481E0072302FB5D00B1FB8A /* Build configuration list for PBXProject "MultiFileDownloadTask" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A481E0032302FB5D00B1FB8A;
+			productRefGroup = A481E00D2302FB5D00B1FB8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A481E00B2302FB5D00B1FB8A /* MultiFileDownloadTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A481E00A2302FB5D00B1FB8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A481E01A2302FB5F00B1FB8A /* LaunchScreen.storyboard in Resources */,
+				A481E0172302FB5F00B1FB8A /* Assets.xcassets in Resources */,
+				A481E0152302FB5D00B1FB8A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B4D971667B5BE7D8688145B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MultiFileDownloadTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB4EACD3B265D63080F91A99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MultiFileDownloadTask/Pods-MultiFileDownloadTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MZDownloadManager/MZDownloadManager.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MZDownloadManager.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MultiFileDownloadTask/Pods-MultiFileDownloadTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A481E0082302FB5D00B1FB8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				844FEB6A25B33CAF003F2CD6 /* UIViewExtension.swift in Sources */,
+				A481E0122302FB5D00B1FB8A /* MultiFileDownloadViewController.swift in Sources */,
+				A481E0222302FEE200B1FB8A /* FileDownloadCell.swift in Sources */,
+				A481E0102302FB5D00B1FB8A /* AppDelegate.swift in Sources */,
+				A42A9E522303467D0097900E /* LoginViewController.swift in Sources */,
+				A481E0262303223500B1FB8A /* GetURLViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A481E0132302FB5D00B1FB8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A481E0142302FB5D00B1FB8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A481E0182302FB5F00B1FB8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A481E0192302FB5F00B1FB8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A481E01C2302FB5F00B1FB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A481E01D2302FB5F00B1FB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A481E01F2302FB5F00B1FB8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 405C9EF4B70CF1BA9F7CE6E3 /* Pods-MultiFileDownloadTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K52LR739G;
+				INFOPLIST_FILE = MultiFileDownloadTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajai.MultiFileDownloadTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A481E0202302FB5F00B1FB8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D1CF8109EE18EC50FEC7CCE /* Pods-MultiFileDownloadTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5K52LR739G;
+				INFOPLIST_FILE = MultiFileDownloadTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.rajai.MultiFileDownloadTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A481E0072302FB5D00B1FB8A /* Build configuration list for PBXProject "MultiFileDownloadTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A481E01C2302FB5F00B1FB8A /* Debug */,
+				A481E01D2302FB5F00B1FB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A481E01E2302FB5F00B1FB8A /* Build configuration list for PBXNativeTarget "MultiFileDownloadTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A481E01F2302FB5F00B1FB8A /* Debug */,
+				A481E0202302FB5F00B1FB8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A481E0042302FB5D00B1FB8A /* Project object */;
+}

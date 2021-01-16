@@ -1,0 +1,16 @@
+PODS:
+  - MZDownloadManager (3.4)
+
+DEPENDENCIES:
+  - MZDownloadManager
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - MZDownloadManager
+
+SPEC CHECKSUMS:
+  MZDownloadManager: 8e9f186b2e804ffaeaf782c0cd3e22f27625cb7b
+
+PODFILE CHECKSUM: 6f65f14d5e7a24008721564c9c873c9e580ca700
+
+COCOAPODS: 1.5.3
