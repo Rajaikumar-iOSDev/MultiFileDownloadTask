@@ -9,4 +9,4 @@ This is a demo for multi file download. Just to showcase how it is done.
 
 ## Tech stack
 
-Xcode, Objective C, SWift & UIKit
+Xcode, Objective C, Swift & UIKit
